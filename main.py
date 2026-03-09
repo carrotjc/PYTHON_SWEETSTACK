@@ -11,28 +11,22 @@ from animations import (
 
 pygame.init()
 
-# ─────────────────────────────────────────────────────────────
 #  Screen
-# ─────────────────────────────────────────────────────────────
+
 WIDTH, HEIGHT = 1440, 1024
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Sweet Stack")
 clock  = pygame.time.Clock()
 
-# ─────────────────────────────────────────────────────────────
 #  Fonts
-# ─────────────────────────────────────────────────────────────
 order_font   = pygame.font.Font("assets/fonts/PixelOperator.ttf", 32)
 message_font = pygame.font.Font("assets/fonts/PixelOperator.ttf", 40)
 
-# ─────────────────────────────────────────────────────────────
+
 #  Background
-# ─────────────────────────────────────────────────────────────
 background = pygame.image.load("assets/backgroundfinal.png").convert()
 
-# ─────────────────────────────────────────────────────────────
 #  Start-screen assets
-# ─────────────────────────────────────────────────────────────
 title_img  = pygame.image.load("assets/sweetstack.png").convert_alpha()
 title_img  = pygame.transform.scale(title_img, (922, 375))
 title_rect = title_img.get_rect(topleft=(259, 250))
@@ -411,3 +405,4 @@ pygame.quit()
 sys.exit()
 
 # try push
+# for push huhu

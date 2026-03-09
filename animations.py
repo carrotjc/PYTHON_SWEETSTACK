@@ -1,8 +1,4 @@
 """
-animations.py
--------------
-All animation classes and shared UI helpers for Sweet Stack.
-
 Classes
     CloudManager     — idle float + exit-left/right on play press
     CustomerAnimator — walk-in from right + idle float bob
