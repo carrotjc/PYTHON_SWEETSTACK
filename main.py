@@ -403,6 +403,3 @@ while running:
 
 pygame.quit()
 sys.exit()
-
-# try push
-# for push huhu
