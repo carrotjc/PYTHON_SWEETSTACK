@@ -256,7 +256,6 @@ while running:
                                     button["product_pos"],
                                     button["product_size"],
                                 )
-                                # Spawn a drip only for flavor picks
                                 if category == "flavor":
                                     drops.spawn(
                                         flavor_name = button["name"],
@@ -403,3 +402,5 @@ while running:
 
 pygame.quit()
 sys.exit()
+
+#comment
