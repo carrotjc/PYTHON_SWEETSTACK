@@ -378,6 +378,7 @@ while running:
             screen, message_font, message_text, message_timer, WIDTH, HEIGHT
         )
 
+#anotherone
     # ── GAME OVER SCREEN ────────────────────────────────────
     elif game_state == "game_over":
         pw, ph = 660, 360
@@ -402,6 +403,3 @@ while running:
 
 pygame.quit()
 sys.exit()
-
-#comment
-#anotherone
