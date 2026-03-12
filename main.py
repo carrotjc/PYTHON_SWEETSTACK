@@ -377,8 +377,8 @@ while running:
         message_text, message_timer = draw_message(
             screen, message_font, message_text, message_timer, WIDTH, HEIGHT
         )
-
-# moore more
+#filler
+# filler
 
     # ── GAME OVER SCREEN ────────────────────────────────────
     elif game_state == "game_over":
