@@ -379,6 +379,7 @@ while running:
         )
 
 #anotherone
+#hello hellooo
     # ── GAME OVER SCREEN ────────────────────────────────────
     elif game_state == "game_over":
         pw, ph = 660, 360
