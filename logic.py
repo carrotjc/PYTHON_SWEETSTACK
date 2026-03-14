@@ -1,4 +1,3 @@
-# logic.py
 import pygame
 import random
 

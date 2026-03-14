@@ -30,6 +30,9 @@ ROUND_TIMES      = [20, 15, 8]
 ORDER_HIDE_AFTER = [None, 8, 3]
 TOTAL_ROUNDS     = 3
 
+# ── Lives ────────────────────────────────────────────────────
+MAX_LIVES = 3
+
 # ── Score ────────────────────────────────────────────────────
 SCORE_BASE       = 100   # flat points per correct order
 SCORE_TIME_BONUS = 5     # extra points per second remaining
@@ -102,15 +105,15 @@ BUTTONS_DATA = [
      "button_path": "assets/buttons/toppings_syrup.png",
      "product_path": "assets/product/syrup.png",
      "button_pos": (759, 832), "button_size": (82, 59),
-     "product_pos": (906, 475), "product_size": (136, 98)},
+     "product_pos": (906, 433), "product_size": (135, 98)},
     {"type": "topping", "name": "Matcha",
      "button_path": "assets/buttons/toppings_matcha.png",
      "product_path": "assets/product/matcha.png",
      "button_pos": (758, 907), "button_size": (82, 59),
-     "product_pos": (906, 475), "product_size": (136, 98)},
+     "product_pos": (906, 433), "product_size": (136, 98)},
     {"type": "topping", "name": "Nuts",
      "button_path": "assets/buttons/toppings_nuts.png",
      "product_path": "assets/product/nuts.png",
      "button_pos": (857, 907), "button_size": (83, 60),
-     "product_pos": (906, 475), "product_size": (136, 98)},
+     "product_pos": (906, 440), "product_size": (105, 76)},
 ]
