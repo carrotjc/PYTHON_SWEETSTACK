@@ -1,4 +1,3 @@
-# ui/helpers.py
 import pygame
 
 
@@ -43,7 +42,6 @@ def draw_message(screen, font, msg: str, timer: int,
 
 def draw_order_line(screen, font, label: str, value: str, x: int, y: int,
                     label_color=(0, 0, 0), value_color=(200, 0, 0)):
-    """Render a coloured label + value pair, e.g. 'BASE:  Cone'."""
     label_surf = font.render(label, True, label_color)
     value_surf = font.render(value, True, value_color)
     screen.blit(label_surf, (x, y))
