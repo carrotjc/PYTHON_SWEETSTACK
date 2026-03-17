@@ -335,6 +335,4 @@ while running:
 pygame.quit()
 sys.exit()
 
-#filler
-
-#filler2
+#filler1
