@@ -322,6 +322,7 @@ while running:
 
 #filler
 #filler
+#filler
 
     # WIN SCREEN
     elif game_state == "win":
